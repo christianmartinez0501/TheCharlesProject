@@ -71,3 +71,5 @@ Then open http://127.0.0.1:5000 in your browser.
 Flask uses templates. It's basically inserting python into HTML. Templates do not need to have python in it. It's just HTML until we want to add some logic to it. 
 
 ```static\``` is where images, css, js and what not will go. 
+
+app.py registers all our routes. This is were we handle requests.

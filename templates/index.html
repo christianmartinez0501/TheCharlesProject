@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ title or 'The Charles Project' }}</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width:900px; margin:2rem auto; padding:0 1rem; }
+    header { margin-bottom:1.5rem }
+    a.button { display:inline-block; padding:0.5rem 1rem; background:#0078d4; color:#fff; text-decoration:none; border-radius:4px }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ heading or 'Welcome to The Charles Project' }}</h1>
+    <p>Minimal Flask + Jinja2 template.</p>
+  </header>
+
+  <main>
+    <p>This page is served from the `templates/index.html` Jinja template.</p>
+    <p><a class="button" href="/landing">Open existing landing.html</a></p>
+  </main>
+</body>
+</html>

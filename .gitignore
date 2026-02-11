@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+venv311/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv
+
+# IDE/editor directories
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Distribution/build
+build/
+dist/
+*.egg-info/

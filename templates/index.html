@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ title or 'The Charles Project' }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}">
+</head>
+<body>
+  <header>
+    <h1>{{ heading or 'Welcome to The Charles Project' }}</h1>
+    <p>Minimal Flask + Jinja2 template.</p>
+  </header>
+
+  <main>
+    <p>This page is served from the `templates/index.html` Jinja template.</p>
+    <p><a class="button" href="/landing">Open existing landing.html</a></p>
+  </main>
+</body>
+</html>
